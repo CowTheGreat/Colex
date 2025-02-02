@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/products" element={
+{/*         <Route path="/" element={<LandingPage />} /> */}
+        <Route path="/" element={
           <div style={{ minHeight: '100vh', backgroundColor: '#f5f5f5' }}>
             <DataGrid data={scrapedData} />
           </div>
